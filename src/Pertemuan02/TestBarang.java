@@ -6,7 +6,7 @@ package Pertemuan02;
 
 /**
  *
- * @author WINDOWS 11
+ * @author WINDOWS 11                       
  */
 public class TestBarang {
     public static void main(String[] args) {

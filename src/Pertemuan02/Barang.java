@@ -14,7 +14,7 @@ public class Barang {
     
     public void tampilBarang() {
         System.out.println("Nama Barang : " + namaBrg);
-        System.out.println("jenis Barang : + " + jenisBrg);
+        System.out.println("jenis Barang : " + jenisBrg);
         System.out.println("Stock : " + stock);
     }
     

@@ -8,6 +8,7 @@ package Pertemuan09.Percobaan2;
  *
  * @author WINDOWS 11
  */
-public class IBerprestasi {
-    
+public interface IBerprestasi {
+    void menjuaraiKompetisi();
+    void membuatPublikasiIlmiah();
 }

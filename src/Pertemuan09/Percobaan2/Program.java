@@ -13,9 +13,11 @@ public class Program {
         Rektor pakRektor = new Rektor();
 
         Sarjana sarjanaCumlaude = new Sarjana("Charlie");
-        PascaSarjana masterCumlaude = new PascaSarjana("Diana");
+        PascaSarjana masterCumlaude = new PascaSarjana("Budi");
 
+        pakRektor.beriSertifikatMawapres(masterCumlaude);
         pakRektor.beriSertifikatCumlaude(sarjanaCumlaude);
         pakRektor.beriSertifikatCumlaude(masterCumlaude);
+        pakRektor.beriSertifikatMawapres(masterCumlaude);
     }
 }

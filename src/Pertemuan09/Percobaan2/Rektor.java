@@ -16,4 +16,12 @@ public class Rektor {
         mahasiswa.meraihIPKTinggi();
         System.out.println("--------------------------------------------");
     }
+
+    public void beriSertifikatMawapres(IBerprestasi mahasiswa) {
+        System.out.println("Saya REKTOR, memberikan sertifikat MAWAPRES.");
+        System.out.println("Selamat! silakan perkenalkan diri Anda...");
+        mahasiswa.menjuaraiKompetisi();
+        mahasiswa.membuatPublikasiIlmiah();
+        System.out.println("--------------------------------------------");
+    }
 }

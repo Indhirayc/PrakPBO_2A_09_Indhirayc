@@ -12,12 +12,10 @@ public class Program {
     public static void main(String[] args) {
         Rektor pakRektor = new Rektor();
 
-        Sarjana sarjanaCumlaude = new Sarjana("Charlie");
         PascaSarjana masterCumlaude = new PascaSarjana("Budi");
+        Sarjana sarjanaCumlaude = new Sarjana("Rina");
 
         pakRektor.beriSertifikatMawapres(masterCumlaude);
-        pakRektor.beriSertifikatCumlaude(sarjanaCumlaude);
-        pakRektor.beriSertifikatCumlaude(masterCumlaude);
-        pakRektor.beriSertifikatMawapres(masterCumlaude);
+        pakRektor.beriSertifikatMawapres(sarjanaCumlaude);
     }
 }
